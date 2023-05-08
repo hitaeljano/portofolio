@@ -3,12 +3,12 @@
 /**********************************/
 body {
     color: #666666;
-    background: #F6D155;
+    background: #F4B41A;
     font-family: 'Open Sans', sans-serif;
 }
 
 a {
-    color: #222222;
+    color: #143D59;
     transition: all .3s;
 }
 
@@ -39,7 +39,7 @@ a:focus {
     position: relative;
     width: 100%;
     float: left;
-    background: #222222;
+    background: #143D59;
 }
 
 .wrapper .content {
@@ -47,7 +47,7 @@ a:focus {
     width: 100%;
     padding: 15px;
     float: left;
-    background: #F6D155;
+    background: #F4B41A;
 }
 
 .wrapper .sidebar-header,
@@ -57,7 +57,7 @@ a:focus {
 
 .navbar {
     padding: 15px;
-    background: #222222 !important;
+    background: #143D59 !important;
 }
 
 .navbar-expand-md .navbar-nav .nav-item {
@@ -112,7 +112,7 @@ a:focus {
         content: "";
         width: 100%;
         height: 30px;
-        background: #F6D155;
+        background: #F4B41A;
         z-index: 1;
     }
     
@@ -196,7 +196,7 @@ a:focus {
         padding: 15px;
         font-size: 0;
         text-align: center;
-        background: #222222;
+        background: #143D59;
     }
     
     .sidebar .sidebar-footer a {
@@ -207,7 +207,7 @@ a:focus {
         margin: 0 15px 15px 0;
         text-align: center;
         font-size: 18px;
-        color: #222222;
+        color: #143D59;
         background: #FF6F61;
     }
     
@@ -281,7 +281,7 @@ a:focus {
 }
 
 .back-to-top i {
-    color: #222222;
+    color: #143D59;
 }
 
 .back-to-top i:hover {
@@ -326,7 +326,7 @@ a:focus {
 }
 
 .header h1 {
-    color: #222222;
+    color: #143D59;
     font-size: 50px;
     font-weight: 700;
 }
@@ -345,12 +345,12 @@ a:focus {
 .header .typed-cursor {
     font-size: 25px;
     font-weight: 300;
-    color: #222222;
+    color: #143D59;
 }
 
 .large-btn .content-inner {
     font-size: 0;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid #F4B41A;
 }
 
 .large-btn .btn {
@@ -359,12 +359,12 @@ a:focus {
     padding: 15px 0;
     color: #FF6F61;
     font-size: 20px;
-    background: #222222;
+    background: #143D59;
     border-radius: 0;
 }
 
 .large-btn .btn:last-child {
-    color: #222222;
+    color: #143D59;
     background: #FF6F61;
 }
 
@@ -399,7 +399,7 @@ a:focus {
 }
 
 .content-header h2 {
-    color: #222222;
+    color: #143D59;
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 3px;
@@ -425,7 +425,7 @@ a:focus {
     position: relative;
     padding: 60px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid #F4B41A;
 }
 
 
@@ -442,14 +442,14 @@ a:focus {
 
 .about .btn {
     border-radius: 0;
-    color: #222222;
+    color: #143D59;
     background: #FF6F61;
     transition: all .3s;
 }
 
 .about .btn:hover {
     color: #FF6F61;
-    background: #222222;
+    background: #143D59;
 }
 
 .about .skills {
@@ -493,7 +493,7 @@ a:focus {
     position: relative;
     padding: 60px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid #F4B41A;
 }
 
 .education .edu-col {
@@ -566,7 +566,7 @@ a:focus {
     position: relative;
     padding: 60px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid #F4B41A;
 }
 
 .experience .exp-col {
@@ -653,7 +653,7 @@ a:focus {
     position: relative;
     padding: 60px 30px 30px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid #F4B41A;
 }
 
 .service .srv-col {
@@ -700,7 +700,7 @@ a:focus {
     position: relative;
     padding: 60px 30px 30px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid #F4B41A;
 }
 
 .portfolio #portfolio-flters {
@@ -728,7 +728,7 @@ a:focus {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
     background: #FF6F61;
-    color: #222222;
+    color: #143D59;
 }
 
 .portfolio .portfolio-item {
@@ -773,14 +773,14 @@ a:focus {
 
 .portfolio .portfolio-item figure .link-preview i,
 .portfolio .portfolio-item figure .link-details i {
-    color: #222222;
+    color: #143D59;
     padding-top: 10px;
     font-size: 16px;
 }
 
 .portfolio .portfolio-item figure .link-preview:hover,
 .portfolio .portfolio-item figure .link-details:hover {
-    background: #222222;
+    background: #143D59;
 }
 
 .portfolio .portfolio-item figure .link-preview:hover i,
@@ -806,7 +806,7 @@ a:focus {
     right: 0;
     top: 100%;
     padding: 30px 10px;
-    color: #222222;
+    color: #143D59;
     font-size: 16px;
     font-weight: 600;
     background: rgba(255, 111, 97, .5);
@@ -847,7 +847,7 @@ a:focus {
 .review {
     position: relative;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid #F4B41A;
 }
 
 .review .content-inner {
@@ -1022,7 +1022,7 @@ a:focus {
     width: 35px;
     height: 35px;
     padding: 5px 0;
-    color: #222222;
+    color: #143D59;
     background: #FF6F61;
     border-radius: 0;
     margin-top: 15px;
@@ -1036,7 +1036,7 @@ a:focus {
 
 .contact .social a:hover {
     color: #FF6F61;
-    background: #222222;
+    background: #143D59;
 }
 
 .contact .form {
@@ -1055,7 +1055,7 @@ a:focus {
 }
 
 .contact .form .btn {
-    color: #222222;
+    color: #143D59;
     background: #FF6F61;
     border-radius: 0;
     transition: all .3s;
@@ -1063,7 +1063,7 @@ a:focus {
 
 .contact .form .btn:hover {
     color: #FF6F61;
-    background: #222222;
+    background: #143D59;
 }
 
 
@@ -1074,7 +1074,7 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 30px 30px 0 30px;
-    background: #F6D155;
+    background: #F4B41A;
 }
 
 .footer .col-md-6:last-child {
@@ -1089,7 +1089,7 @@ a:focus {
 }
 
 .footer p {
-    color: #222222;
+    color: #143D59;
     margin: 0;
 }
 
@@ -1099,6 +1099,6 @@ a:focus {
 }
 
 .footer a:hover {
-    color: #222222;
+    color: #143D59;
 }
 
