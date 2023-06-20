@@ -51,7 +51,7 @@
           <div class="col-lg-10 ftco-animate d-flex align-items-center">
           	<div class="text text-center">
           		<h1 class="mb-3 bread">Projects</h1>
-	            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span class="mr-2"><a href="index.html#projects-section">Projects <i class="ion-ios-arrow-forward"></i></a></span> <span>Audit & ISO Preparation Project <i class="ion-ios-arrow-forward"></i></span></p>
+	            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span class="mr-2"><a href="index.html#projects-section">Projects <i class="ion-ios-arrow-forward"></i></a></span> <span>New Site: ISO Certified System & Network Project <i class="ion-ios-arrow-forward"></i></span></p>
             </div>
           </div>
         </div>
@@ -62,53 +62,71 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 ftco-animate">
-            <h2 class="mb-3">ISO 27001 Certification and Network Infrastructure Enhancement</h2>
+            <h2 class="mb-3">New Site Setup with ISO 27001 Compliance</h2>
             <p>
-              During my tenure as a system administrator, I spearheaded a crucial project that resulted in our organization achieving ISO 27001 certification. This undertaking involved significant transformations in our network infrastructure, with the primary objective of bolstering our information security measures. 
-              As part of this initiative, we implemented a range of enhancements and integrated various control systems to ensure compliance with ISO 27001 standards.
+              In this project, I spearheaded the successful setup of a new site consisting of 200 posts, ensuring adherence to ISO 27001 standards. 
+              The project encompassed the implementation of various components and technologies to establish a secure and efficient network infrastructure.
             </p>
             <p>
-              <img src="images/work-2.jpg" alt="" class="img-fluid">
+              <img src="images/work-4.jpg" alt="" class="img-fluid">
             </p>
             <p>
-              To begin, we thoroughly redesigned our network infrastructure schema, introducing a powerful firewall that offered comprehensive features such as Intrusion Prevention System (IPS), Intrusion Detection System (IDS), routing, and Network Address Translation (NAT). 
-              This firewall served as a protective barrier at the edge of our local network. We also introduced two top-of-the-rack switches to enhance network performance and redundancy. All switches were interconnected with these top-of-the-rack switches, ensuring a resilient and scalable network architecture.
+              The infrastructure design began with the deployment of two OpnSense firewalls in high availability mode. These firewalls were equipped with two internet lines: a primary connection and a backup connection, ensuring continuous connectivity and business continuity. 
+              This setup provided robust security measures and protected the network from external threats.
             </p>
             <p>
-              In order to improve network security and optimize traffic management, we undertook the task of segregating our network into VLANs. Despite the lack of existing documentation, I collaborated closely with relevant stakeholders to identify the necessary VLAN requirements. 
-              Drawing upon this input, I devised a comprehensive plan for VLAN segmentation, enabling the logical division of our network into distinct subnetworks. Through meticulous configuration on our network switches, we effectively isolated and controlled access between different network segments.
+              To facilitate secure communication within the network, a WireGuard VPN was integrated into the existing WireGuard network, following a star topology. This configuration enabled seamless and encrypted communication between the new site and other network segments.
             </p>
             <p>
-              Recognizing the need for a robust DNS filtering system, we embarked on finding and implementing a solution that would provide enhanced web filtering and protection against malicious websites. After careful evaluation, we selected and deployed Pihole as our DNS filtering system. 
-              This implementation enabled us to block access to known malicious domains and filter undesirable content, fortifying our organization's defenses.
+              The local network was structured using two top-of-the-rack MikroTik switches interconnected via SFP+ interfaces, ensuring high-speed and redundant connections. All other switches were connected to these core switches, forming a reliable network architecture. 
+              Network segregation and enhanced security were achieved through the allocation of dedicated VLANs for each department.
             </p>
             <p>
-              In parallel to the infrastructure enhancements, we conducted an assessment of our existing systems to ensure compliance with ISO 27001 requirements. This included evaluating systems such as the Domain Controller, Zabbix monitoring system, Greylog log management system, and others. 
-              Any necessary configurations and adjustments were made to align these systems with the ISO 27001 controls and guidelines. We also ensured the implementation of appropriate logging and monitoring mechanisms to support compliance efforts and facilitate prompt incident response.
+              For wireless connectivity, UniFi access points were strategically deployed, offering reliable and centrally managed WiFi access throughout the new site. 
+              These access points were efficiently managed through the UniFi system, enabling seamless configuration and monitoring.            
             </p>
             <p>
-              Throughout the project, we collaborated closely with internal and external auditors, who provided guidance and support during the certification process. We prepared the necessary documentation and evidence to demonstrate our adherence to ISO 27001 standards. 
-              Where non-conformities or gaps were identified, we promptly addressed them, implementing corrective actions as required. Ultimately, our efforts culminated in the successful achievement of ISO 27001 certification, signifying our organization's commitment to robust information security practices and adherence to internationally recognized standards.
+              To ensure secure access control, access devices such as fingerprints were integrated and managed through the ZKTeco system. This system facilitated streamlined access management and enhanced security protocols.
             </p>
+            <p>
+              To enable efficient virtualization, a Proxmox VE server was provisioned, providing a scalable and manageable virtualization platform. Virtual machines were deployed on this server, offering flexibility and efficient resource allocation.
+            </p>
+            <p>
+              As part of the server setup, a Windows Server 2022 was configured as a domain controller. This involved the creation of Organizational Units (OU) and the implementation of Group Policy Objects (GPO) to enforce ISO standards and enhance security measures within the network.
+            </p>
+            <p>
+              To enhance network security, a Pi-hole DNS filtering system was implemented. This system effectively blocked malicious domains and advertisements, contributing to a safer browsing experience for users.
+            </p>
+            <p>
+              Comprehensive monitoring was achieved using Checkmk, which provided proactive detection of potential issues and ensured the overall health and performance of the network.
+            </p>>
+            <p>
+              For efficient software deployment and script execution, the FOG system was implemented. This system streamlined the process of deploying operating systems and software across PCs, simplifying the overall implementation tasks.
+            </p>
+            <p>
+              This project showcased my expertise in designing and implementing a secure network infrastructure while adhering to ISO 27001 standards. By successfully incorporating various technologies such as OpnSense firewalls, WireGuard VPN, MikroTik switches, UniFi access points, Proxmox VE server, and implementing systems like Pi-hole, Checkmk, and FOG, I ensured a robust, compliant, and high-performing IT environment for the new site.
+            </p>>
           </div>
           <div class="col-lg-4 sidebar ftco-animate">
             <div class="sidebar-box ftco-animate">
             	<h3 class="heading-sidebar">Technologies Used</h3>
               <ul class="categories">
+                <li><a href="https://opnsense.org/">OpnSense Firewall</a></li>
+                <li><a href="https://wireguard.com">WireGuard VPN </a></li>
                 <li><a href="https://mikrotik.com/">MikroTik Switches </a></li>
-                <li><a href="https://opnsense.org/">OPNsense Firewall </a></li>
-                <li><a href="https://help.mikrotik.com/docs/display/ROS/VLAN">VLANs </a></li>
+                <li><a href="https://ui.com/us">UniFi access points </a></li>
+                <li><a href="https://www.proxmox.com/en/proxmox-ve">Proxmox VE </a></li>
                 <li><a href="https://www.microsoft.com/en-us/windows-server">Windows Server 2022 </a></li>
                 <li><a href="https://pi-hole.net/">PiHole </a></li>
-                <li><a href="https://www.zabbix.com/">Zabbix </a></li>
-                <li><a href="https://www.graylog.org/">Greylog </a></li>
+                <li><a href="https://checkmk.com/">Checkmk </a></li>
+                <li><a href="https://fogproject.org/">Fog Project </a></li>
+                <li><a href="https://www.zkteco.com/en/AccessControl">ZKTeco Access Control </a></li>
               </ul>
             </div>
             <div class="sidebar-box ftco-animate">
               <h3 class="heading-sidebar">Summary</h3>
               <p>
-                As a system administrator, I successfully led a critical project within my organization to achieve ISO 27001 certification. This project involved significant changes to our network infrastructure, including the implementation of various security measures and the segregation of our network into VLANs. 
-                I also oversaw the integration of additional control systems to ensure compliance with ISO 27001 requirements. This project demonstrates my expertise in network security, infrastructure design, and compliance management.
+                Led the setup of a new site with 200 posts, ensuring ISO 27001 compliance. Implemented a secure network infrastructure with OpnSense firewalls, WireGuard VPN, MikroTik switches, UniFi access points, and Proxmox VE server. Incorporated systems such as Pi-hole, Checkmk, and FOG for enhanced security, monitoring, and software deployment. Achieved seamless connectivity, network segregation, and access control for optimal performance and adherence to ISO standards. 
               </p>
             </div>
           </div>
